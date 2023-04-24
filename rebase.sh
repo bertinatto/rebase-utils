@@ -73,24 +73,28 @@ git cherry-pick e912bf4e9e8 `# UPSTREAM: 74956: apiserver: switch authorization 
                 767c1d5ca19 `# UPSTREAM: <carry>: add shutdown annotation to response header` \
                 a8a639f0040 `# UPSTREAM: 117242: vendor: bump runc to 1.1.6` \
                 92baedf9693 `# UPSTREAM: 117310: kube-aggregator: correctly use client-go TLS cache with custom dialer` \
-                7a20966f7c5 `# UPSTREAM: <carry>: kubelet: fix readiness probes with pod termination` \
+                3db617ef63f `# UPSTREAM: <carry>: kubelet: fix readiness probes with pod termination` \
                 8f7a7b156e7 `# UPSTREAM: <carry>: kube-controller-manager: allow running bare kube-controller-manager` \
                 4bd8df596d8 `# UPSTREAM: <carry>: add management support to kubelet` \
                 b2623c54165 `# UPSTREAM: <carry>: add missing generated file` \
                 8eb5eef6f6d `# UPSTREAM: <carry>: allows for switching KS to talk to Kube API over localhost` \
-                e67b1f4fc35 `# UPSTREAM: <carry>: kubelet: fix readiness probes with pod termination` \
-                87e25afbc80 `# UPSTREAM: <carry>: Release lock on KCM and KS termination` \
-                0a36215d9ce `# UPSTREAM: <carry>: Release lock on KCM and KS termination` \
+                a46d08ce94b `# UPSTREAM: <carry>: Release lock on KCM and KS termination ORIGINAL FROM TOMAS` \
+                8f9cce49ea1 `# UPSTREAM: <carry>: Release lock on KCM and KS termination` \
                 b9b089f4ec8 `# UPSTREAM: <carry>: Add OpenShift tooling, images, configs and docs` \
                 1a06a255291 `# UPSTREAM: <carry>: update hyperkube image version` \
-                8631deb6af6 `# UPSTREAM: <carry>: kubelet: fix readiness probes with pod termination` \
                 750d75ad6e9 `# UPSTREAM: <carry>: apiserver: add system_client=kube-{apiserver,cm,s} to apiserver_request_total` \
                 c1564dca890 `# UPSTREAM: <carry>: don't fail integration due to too many goroutines` \
                 44d0ad51549 `# UPSTREAM: <carry>: APISelfSubjectReview: only test v1beta1 API` \
                 0d4223b07d8 `# UPSTREAM: 103612: tolerate additional, but congruent, events for integration test` \
                 2f1991efa7a `# UPSTREAM: <carry>: Create minimal wrapper needed to run k8s e2e tests`
 
-		# 3038519f5b5 `# UPSTREAM: <carry>: Add OpenShift tooling, images, configs and docs. RHEL9`
+# This is RHEL 9, maybe I dont need this at all
+# 3038519f5b5 `# UPSTREAM: <carry>: Add OpenShift tooling, images, configs and docs. RHEL9`
 
-# TODO
+
 # squash kubelet: fix readiness probes
+#                e67b1f4fc35 `# UPSTREAM: <carry>: kubelet: fix readiness probes with pod termination` \
+
+
+# squash release lock
+#                cd0d7542982 `# UPSTREAM: <carry>: Release lock on KCM and KS termination` \
