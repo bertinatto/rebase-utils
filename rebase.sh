@@ -69,6 +69,7 @@ git cherry-pick 744eae2b6f1 `# UPSTREAM: 74956: apiserver: switch authorization 
                 3ae4d991e59 `# UPSTREAM: 117310: kube-aggregator: correctly use client-go TLS cache with custom dialer` \
                 becddf4972e `# UPSTREAM: <carry>: don't fail integration due to too many goroutines` \
                 2e3efb050fb `# UPSTREAM: <carry>: APISelfSubjectReview: only test v1beta1 API` \
+		18598a6dff9 `# UPSTREAM: <carry>: Export internal code from k8s.io/apimachinery/pkg/util/managedfields` \
 
 # This is RHEL 9, maybe I dont need this at all
 # 3038519f5b5 `# UPSTREAM: <carry>: Add OpenShift tooling, images, configs and docs. RHEL9`
